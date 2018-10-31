@@ -1,0 +1,63 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#Header {
+    background-color: white;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: white;
+    background-color: teal;
+    text-align: center;
+    width: 225px;
+    margin-left: 200px; 
+    height: 70px;
+    float: left;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.button {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    float: right;
+    border: none;
+    padding: 5px 15px;
+    margin-top: 15px
+}
+
+#About {
+    background-color: white;
+    width: 960px;
+    height: 225px;
+    margin: 200px 150px;
+    clear: both
+}
+
+h2{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: teal;
+    border-bottom: 2px solid; 
+    border-bottom-color: grey;
+    float: left;
+    width: 96%;
+    padding-bottom: 20px;
+    margin-left: 20px; 
+}
+
+img {
+    width: 75px;
+    height: 100px;
+   float: left;
+   clear: both;
+   margin-right: 15px;
+   margin-left: 20px;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-left: 20px;
+}
