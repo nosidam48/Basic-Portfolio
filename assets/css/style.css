@@ -1,6 +1,8 @@
 html, body {
     padding: 0px;
     margin: 0px;
+    width: 960px;
+    min-height: 100%;
 }
 
 #Header {
@@ -17,7 +19,7 @@ h1 {
     background-color: teal;
     text-align: center;
     width: 225px;
-    margin-left: 200px; 
+    margin-left: 146px; 
     height: 50px;
     float: left;
     margin-top: 0px;
@@ -31,11 +33,23 @@ h1 {
     padding: 5px 25px;
     margin-top: 15px;
     margin-right: 10px;
+}
+
+.button:hover {
+    background-color: teal;
+    color: white;
+}
+
+#button-1 {
+    padding-right: 65px
+}
+
+#button-3 {
     border-right: 1px solid;
 }
 
-.button-3 {
-    border-right: none;
+#button-2 {
+    border-right: 1px solid;
 }
 
 #About {
@@ -96,10 +110,6 @@ h3{
 
 form {
     padding: 20px;
-}
-
-.form-submit-button {
-    background-color: teal;
 }
 
 #port {
@@ -186,4 +196,13 @@ footer {
     padding-top: 20px;
     font-size: 10px;
     bottom: 0px;
+    left: 0px;
+}
+
+.submit {
+    color: white;
+    background-color: teal;
+    height: 30px;
+    width: 100px;
+    margin-top: 30px;
 }
